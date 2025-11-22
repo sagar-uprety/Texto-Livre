@@ -36,20 +36,24 @@
 % $ biber article
 
 % used to create dummy text for the template file
-\definecolor{dark-gray}{gray}{0.35} % color used to display dummy texts
+\updatesupdates{dark-gray}{gray}{0.35} % color used to display dummy texts
 \usepackage{lipsum}
 \SetLipsumParListSurrounders{\colorlet{oldcolor}{.}\color{dark-gray}}{\color{oldcolor}}
 
+                    
 % used here only to provide the XeLaTeX and BibTeX logos
 \usepackage{hologo}
 
+
+        updates 
+        
 % if you use multirows in a table, include the multirow package
 \usepackage{multirow}
 
 % provides sidewaysfigure environment
 \usepackage{rotating}
 
-% CUSTOM EPIGRAPH - BEGIN 
+% CUSTOM EPIGRAPH - BEGINS
 %%% https://tex.stackexchange.com/questions/193178/specific-epigraph-style
 \usepackage{epigraph}
 \renewcommand\textflush{flushright}
